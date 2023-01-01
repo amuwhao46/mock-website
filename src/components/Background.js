@@ -5,9 +5,8 @@ const img = 'https://images.unsplash.com/photo-1511205889995-e2a998743716?ixlib=
 
 export default function Background() {
   return (
-    <div className='relative'>
+    <div className='bg-green-500' src={{img}}>
         <HelloWorld />
-        <img className='bg-gray-200 bg-cover bg-fixed bg-center bg-no-repeat w-screen' src={img} alt='Test'/>
     </div>
   )
 }
