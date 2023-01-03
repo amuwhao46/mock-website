@@ -1,8 +1,8 @@
 import React from 'react'
 
-const backgroundImg = 'https://images.unsplash.com/photo-1544965850-6f8a66788f9b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1507&q=80'
+const backgroundImg = 'https://images.unsplash.com/photo-1669668869489-aa778bf6d594?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80'
 
-export default function ForestPage() {
+export default function MountainPage() {
   return (
     <div className='text-white'>
       <div className='flex flex-col h-screen bg-cover bg-center bg-fixed bg-no-repeat' style={{ backgroundImage: `url(${backgroundImg})` }}>
