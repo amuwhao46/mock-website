@@ -9,7 +9,11 @@ export default function Footer() {
       </div>
       <div>
         <h1 className='text-3xl font-bold'>Websites</h1>
-        <p className='text-lg'>okeamuwha.com</p>
+        <a 
+          href='https://okeamuwha.com' 
+          target="_blank">
+          <p className='text-lg hover:text-gray-300 transition'>okeamuwha.com</p>
+          </a>
       </div>
     </footer>
   )
