@@ -11,6 +11,7 @@ export default function Footer() {
         <h1 className='text-3xl font-bold'>Websites</h1>
         <a 
           href='https://okeamuwha.com' 
+          rel="noreferrer"
           target="_blank">
           <p className='text-lg hover:text-gray-300 transition'>okeamuwha.com</p>
           </a>
